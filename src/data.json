@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Tareas App",
+        "poster": "icon",
+        "skills": ["Svelte","Javascript"]
+    },{
+        "name": "Rick and Morty",
+        "poster": "rick_and_morty",
+        "skills": ["Svelte","Javascript"]
+    }
+]
