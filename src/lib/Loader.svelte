@@ -3,11 +3,6 @@
 </div>
 
 <style>
-    /* .loader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-    } */
     .loader img {
         width: 20px;
     }

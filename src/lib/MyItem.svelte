@@ -83,20 +83,6 @@
         text-decoration: none;
         color: rgb(16, 110, 252);
     }
-    /* .item__actions button {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-
-        border: none;
-        border-radius: 4px;
-        width: 40%;
-        padding: 6px 15px;
-        font-size: 1.3rem;
-        font-family: "Fira Code";
-        color: rgb(16, 110, 252);
-        background-color: rgba(134, 173, 233, 0.459);
-    } */
     @media (max-width: 800px) {
         .item {
             width: 95%;

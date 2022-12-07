@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
     import Loader from "../lib/Loader.svelte";
 
-    let stateLoader = false;
+    let stateLoader : boolean = false;
  
 </script>
 <div style={ stateLoader ? 'backdrop-filter: blur(10px);' : "" } class="contact-container">
