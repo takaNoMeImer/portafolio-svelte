@@ -1,13 +1,9 @@
 <script>
-    import Blog from "../lib/Blog.svelte";
-    import Card from "../lib/Card.svelte";
     import MyItem from "../lib/MyItem.svelte";
     import { datos } from '../store.js';
 </script>
 <div class="grid-items">
     {#each $datos as dato}
-        <!-- <Card dato={dato}/> -->
-        <!-- <Blog item={dato}/> -->
         <MyItem item={dato}/>
     {/each}
 </div>
@@ -22,5 +18,17 @@
         grid-auto-rows: 30em;
         gap: 2rem;
         justify-items: center;
+    }
+    @media (max-width: 800px) {
+        .grid-items {
+            width: 92%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 550px) {
+        .grid-items {
+            width: 95%;
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 </style>

@@ -3,12 +3,12 @@
 </div>
 
 <style>
-    .loader {
+    /* .loader {
         position: absolute;
         top: 50%;
         left: 50%;
-    }
+    } */
     .loader img {
-        width: 60px;
+        width: 20px;
     }
 </style>

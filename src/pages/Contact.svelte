@@ -13,19 +13,28 @@
             Contacto
         </p>
         <div class="control">
-            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Nombre" required>
         </div>
         <div class="control">
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" required>
         </div>
         <div class="control">
-            <textarea name="" id="" rows="10" placeholder="Mensaje"></textarea>
+            <textarea name="" id="" rows="10" placeholder="Mensaje" required></textarea>
         </div>
         <div class="control">
-            <button on:click={ () => stateLoader = !stateLoader }>Enviar</button>
-            {#if stateLoader}
+            <button on:click={ 
+                () => stateLoader = !stateLoader    
+            }>{#if stateLoader}
                 <Loader />
+            {:else}
+                Enviar
             {/if}
+        
+            </button>
+
+            <!-- {#if stateLoader}
+                <Loader />
+            {/if} -->
         </div>
     </div>
 </div>
@@ -79,8 +88,8 @@
         padding: 10px 15px;
         border-radius: 3px;
         font-weight: 600;
-        background-color: rgb(29,111,217);
-        color: white;
+        background-color: rgb(154, 190, 238);
+        color: rgb(74, 74, 250);
     }
     textarea {
         resize: none;
@@ -93,5 +102,18 @@
     }
     .control input, textarea {
         color: rgb(54, 54, 54);
+    }
+
+    @media (max-width: 600px) {
+        .contact-container {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .left-side {
+            display: none;
+        }
+        .right-side {
+            border-radius: 5px;
+        }
     }
 </style>

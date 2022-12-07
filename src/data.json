@@ -1,11 +1,21 @@
 [
     {
+        "name": "Portafolio",
+        "poster": "icon",
+        "skills": ["Svelte","Javascript"],
+        "demo": "",
+        "github": "https://github.com/takaNoMeImer/portafolio-svelte"
+    },{
         "name": "Tareas App",
         "poster": "icon",
-        "skills": ["Svelte","Javascript"]
+        "skills": ["Svelte","Javascript"],
+        "demo": "",
+        "github": ""
     },{
         "name": "Rick and Morty",
         "poster": "rick_and_morty",
-        "skills": ["Svelte","Javascript"]
+        "skills": ["Svelte","Javascript"],
+        "demo": "",
+        "github": ""
     }
 ]
