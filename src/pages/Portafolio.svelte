@@ -14,9 +14,13 @@
 
 <style>
     .grid-items {
+        width: 90%;
+        margin: 0 auto;
         padding: 1rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 30em;
         gap: 2rem;
+        justify-items: center;
     }
 </style>
