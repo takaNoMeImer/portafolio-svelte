@@ -17,9 +17,9 @@
 
     <div class="item__actions">
         <div class="link">
-            <a href="">
+            <a href={item.demo} target="__blank">
                 <box-icon name="show-alt" size="25px"/>
-                Test
+                Demo
             </a>
         </div>
         <div class="link">

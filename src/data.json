@@ -8,9 +8,9 @@
     },{
         "name": "Tareas App",
         "poster": "icon",
-        "skills": ["Svelte","Javascript"],
+        "skills": ["Vue","Javascript"],
         "demo": "",
-        "github": ""
+        "github": "https://github.com/takaNoMeImer/todo-vue.git"
     },{
         "name": "Rick and Morty",
         "poster": "rick_and_morty",
