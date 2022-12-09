@@ -21,7 +21,7 @@
     }
     @media (max-width: 800px) {
         .grid-items {
-            width: 92%;
+            width: 98%;
             grid-template-columns: repeat(2, 1fr);
         }
     }

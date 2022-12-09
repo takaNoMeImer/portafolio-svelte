@@ -8,8 +8,8 @@
     },{
         "name": "Tareas App",
         "poster": "icon",
-        "skills": ["Vue","Javascript"],
-        "demo": "",
+        "skills": ["Vue","Typescript"],
+        "demo": "https://majestic-griffin-af95e5.netlify.app",
         "github": "https://github.com/takaNoMeImer/todo-vue.git"
     },{
         "name": "Rick and Morty",

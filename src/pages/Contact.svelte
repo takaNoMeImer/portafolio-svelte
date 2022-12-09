@@ -2,6 +2,16 @@
     import Loader from "../lib/Loader.svelte";
 
     let stateLoader : boolean = false;
+    let textButton : string = "Enviar"
+
+    const changeState = () => {
+        stateLoader = !stateLoader;
+        textButton = "Enviando..."
+        setTimeout(() => {
+            stateLoader = !stateLoader;
+            textButton = "Enviar"
+        }, 800);
+    }
  
 </script>
 <div style={ stateLoader ? 'backdrop-filter: blur(10px);' : "" } class="contact-container">
@@ -22,19 +32,11 @@
             <textarea name="" id="" rows="10" placeholder="Mensaje" required></textarea>
         </div>
         <div class="control">
-            <button on:click={ 
-                () => stateLoader = !stateLoader    
-            }>{#if stateLoader}
+            <button on:click={changeState}>{textButton}{#if stateLoader}
                 <Loader />
-            {:else}
-                Enviar
             {/if}
         
             </button>
-
-            <!-- {#if stateLoader}
-                <Loader />
-            {/if} -->
         </div>
     </div>
 </div>
@@ -71,6 +73,7 @@
        /*  border: 1px solid white; */
        width: 95%;
        margin: 10px auto;
+       text-align: center;
     }
     .control input {
         border-radius: 5px;
@@ -82,6 +85,7 @@
         box-shadow: 0px 0px 6px 0px rgba(199,191,191,1);
     }
     .control button {
+        text-align: center;
         width: 100%;
         font-size: 1.2rem;
         border: none;

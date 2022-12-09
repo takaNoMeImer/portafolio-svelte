@@ -45,7 +45,7 @@
         padding: 1.5rem;
         border-radius: 10px;
         width: 60%;
-        /* background-color: rgb(25, 28, 46); */
+
         background-color: rgb(34, 34, 34);
         justify-self: end;
         box-shadow: 0 0 8px .1px white;
@@ -94,9 +94,41 @@
         font-size: 1.3rem;
         color: white;
     }
-    @media (max-width: 550px) {
+    @media (max-width: 900px) {
+        .card {
+            width: 80%;
+        }
+        .description {
+            width: 80%;
+        }
+    }
+    @media (max-width: 600px) {
         .about-grid {
             grid-template-columns: repeat(1, 1fr);
+        }
+        .card {
+            width: 80%;
+            justify-self: center;
+            margin-bottom: 1rem;
+        }
+        .description {
+            width: 80%;
+            justify-self: center;
+            margin-bottom: 1rem;
+        }
+    }
+    @media (max-width: 420px) {
+        .about-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .card {
+            width: 100%;
+            justify-self: start;
+            margin-bottom: 1rem;
+        }
+        .description {
+            width: 100%;
+            margin-bottom: 1rem;
         }
     }
 </style>

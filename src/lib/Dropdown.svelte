@@ -11,12 +11,13 @@
 </div>
 <style>
     .dropdown {
+        border-radius: 0 0 5px 0;
         position: absolute;
         left: 0;
         top: 0;
         height: 200px;
         width: 200px;
-        background-color: #fff;
+        background-color: rgb(233, 233, 233);
     }
     .links-dropdown {
         height: 100%;
@@ -27,10 +28,13 @@
     }
     .links-dropdown p {
         font-size: 1.5rem;
-        border: 1px solid black;
         padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
     }
     .links-dropdown p:hover {
-        background-color: black;
+        background-color: rgb(126, 132, 182);
+        color: white;
     }
 </style>
