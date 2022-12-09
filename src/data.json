@@ -3,19 +3,19 @@
         "name": "Portafolio",
         "poster": "icon",
         "skills": ["Svelte","Javascript"],
-        "demo": "",
+        "demo": "portafolio-imer.netlify.app",
         "github": "https://github.com/takaNoMeImer/portafolio-svelte"
     },{
         "name": "Tareas App",
         "poster": "icon",
         "skills": ["Vue","Typescript"],
         "demo": "https://majestic-griffin-af95e5.netlify.app",
-        "github": "https://github.com/takaNoMeImer/todo-vue.git"
+        "github": "https://github.com/takaNoMeImer/todo-vue"
     },{
         "name": "Rick and Morty",
         "poster": "rick_and_morty",
         "skills": ["Svelte","Javascript"],
         "demo": "",
-        "github": ""
+        "github": "https://github.com/takaNoMeImer/rick-and-morty"
     }
 ]
