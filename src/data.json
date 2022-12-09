@@ -7,7 +7,7 @@
         "github": "https://github.com/takaNoMeImer/portafolio-svelte"
     },{
         "name": "Tareas App",
-        "poster": "icon",
+        "poster": "task_app",
         "skills": ["Vue","Typescript"],
         "demo": "https://majestic-griffin-af95e5.netlify.app",
         "github": "https://github.com/takaNoMeImer/todo-vue"
